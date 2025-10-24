@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<title>Bilimsel Programlamaya Giriş ve Matematiksel Hesaplamalar – Alıştırmalar</title>
+<style>
+:root{
+  --bg:#0f111a;
+  --card:#1b1f2a;
+  --text:#f0f3f8;
+  --accent:#4ea1ff;
+  --muted:#9ba3b0;
+  --code:#e8ecf3;
+}
+body{background:var(--bg);color:var(--text);font-family:system-ui,Roboto,Arial;margin:0;padding:2rem;}
+h1,h2{color:var(--accent);}
+.card{background:var(--card);border-radius:10px;padding:1rem 1.5rem;margin:1rem 0;box-shadow:0 0 8px #0005;}
+pre{background:#0c0e15;border-radius:8px;padding:.7rem;color:var(--code);overflow:auto;}
+small{color:var(--muted);}
+</style>
+</head>
+<body>
+
+<h1>📗 Bilimsel Programlama ve Matematiksel Hesaplamalar — Alıştırmalar</h1>
+<p><small>Bu alıştırmalar, temel Python sözdizimini ve bilimsel hesaplamada kullanılan temel işlemleri pekiştirmek için hazırlanmıştır.</small></p>
+ 
+
+<div class="card">
+<h3>1. Değişken Atama Deneyi</h3>
+<p>Aşağıdaki ifadelerin sonuçlarını tahmin edin ve çalıştırarak kontrol edin:</p>
+<pre>
+x = 4
+y = 3
+z = x + y * 2
+print(z)
+</pre>
+<p><strong>Soru:</strong> Operatör önceliği hangi sırayla uygulanır? Eğer parantez eklerseniz (<code>(x + y) * 2</code>), sonuç nasıl değişir?</p>
+</div>
+
+<div class="card">
+<h3>2. Tür Dönüşümü Deneyi</h3>
+<p><code>a = "12"</code> ve <code>b = 3</code> için şu satırların farkını gözlemleyin:</p>
+<pre>
+print(a * b)
+print(int(a) * b)
+</pre>
+<p><strong>Soru:</strong> İkincisinin bilimsel hesaplamada neden daha anlamlı olduğunu açıklayın.</p>
+</div>
+
+<div class="card">
+<h3>3. Kullanıcı Girdisi ve Aritmetik İşlemler</h3>
+<p>Kullanıcıdan bir dairenin yarıçapını isteyip alanını hesaplayan bir program yazın:</p>
+<pre>
+Alan = π * r²
+</pre>
+<p><strong>Ek:</strong> <code>math</code> modülünü kullanarak daha doğru sonuç elde edin.</p>
+</div>
+
+<div class="card">
+<h3>4. Değişken Güncelleme ve Artırma</h3>
+<p>Aşağıdaki kod parçasını inceleyin ve sonunda <code>x</code>’in değeri ne olur?</p>
+<pre>
+x = 5
+x = x + 1
+x += 2
+x *= 3
+print(x)
+</pre>
+<p><strong>Soru:</strong> Bu tür “güncellemeler” bilimsel simülasyonlarda neden sıkça kullanılır?</p>
+</div>
+
+<div class="card">
+<h3>5. Basit Denklemin Kod Karşılığı</h3>
+<p>Denklem: <code>v = v0 + a * t</code>  
+Kullanıcıdan <code>v0</code>, <code>a</code> ve <code>t</code> değerlerini alıp sonucu ekrana yazdıran bir Python kodu yazın.</p>
+<p><strong>Ek:</strong> Çıktıyı f-string kullanarak düzgün biçimleyin.</p>
+</div>
+ 
+
+<div class="card">
+<h3>6. Formül Uygulama</h3>
+<p>Bir dik üçgenin hipotenüsünü hesaplayın:</p>
+<pre>
+c = √(a² + b²)
+</pre>
+<p><strong>Görev:</strong> <code>math.sqrt</code> ve üs alma operatörünü (<code>**</code>) kullanarak hesaplayın.</p>
+</div>
+
+<div class="card">
+<h3>7. Aritmetik Karşılaştırması</h3>
+<p>Şu iki ifadeyi karşılaştırın:</p>
+<pre>
+1/3 + 1/3 + 1/3 == 1
+round(1/3 + 1/3 + 1/3, 10) == 1
+</pre>
+<p><strong>Soru:</strong> Neden biri <code>False</code> olabilir? Bilimsel hesaplamalarda bunun önemi nedir?</p>
+</div>
+
+<div class="card">
+<h3>8. Birim Dönüşümü</h3>
+<p>Celcius’tan Fahrenheit’a dönüşüm formülünü kullanın:  
+<code>F = 9/5*C + 32</code>  
+Kullanıcıdan sıcaklık alıp hem F hem de K (Kelvin) cinsinden yazdırın.</p>
+<p><strong>Ek:</strong> <code>C = -40</code> için F ve K sonuçlarını yorumlayın.</p>
+</div>
+
+<div class="card">
+<h3>9. Aritmetik Ortalama Hesabı</h3>
+<p>Üç ölçüm sonucunu (<code>x1, x2, x3</code>) kullanıcıdan alın. Aritmetik ortalamasını hesaplayın.</p>
+<p><strong>Soru:</strong> Bu hesaplamayı neden <code>(x1 + x2 + x3)/3</code> biçiminde yapıyoruz, <code>//</code> kullanmak neden hatalı olurdu?</p>
+</div>
+
+<div class="card">
+<h3>10. Hata Hesabı</h3>
+<p>Gerçek değer <code>π</code>, yaklaşık değer <code>3.14</code>.  
+Bağıl hatayı hesaplayın:  
+<code>hata = abs(π - 3.14) / π</code></p>
+<p><strong>Ek:</strong> Sonucu yüzde cinsinden yazdırın.</p>
+</div>
+
+<h2>Ek Alıştırma (isteğe bağlı)</h2>
+
+<div class="card">
+<h3>11. Denklem Dönüştürme</h3>
+<p><code>s = u*t + ½*a*t²</code> ifadesini Python’a çevirin.  
+Sonuçta <code>a</code>, <code>u</code> ve <code>t</code> değerlerini değiştirip farkı gözlemleyin.  
+<small>Bu, “matematiksel formülün doğrudan kod karşılığını” kurma pratiği içindir.</small></p>
+</div>
+
+<footer style="margin-top:2rem;color:var(--muted);font-size:0.9rem;">
+Hazırlayan: <strong>Tensor Akademi • Python İle Bilimsel Hesaplama</strong><br>
+© 2025 Doç. Dr. İnan Ünal.
+</footer>
+
+</body>
+</html>
