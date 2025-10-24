@@ -6,6 +6,7 @@ Amacımız, **temel matematik kavramlarını**, **sayısal yöntemleri** ve **he
 İçerik hem **öğretici** hem de **uygulamalı** olarak tasarlanmıştır — kod blokları, görselleştirmeler ve kısa açıklamalarla desteklenir.
 
 ---
+**NOT** Kolay kullanım açısından derste google colab kullanılmaktadır. ``.ipynb`` uzantılı dosyayı indirerek Google Drive'e ekleyebilir ve oradan çalıştırabilirsiniz. Ayrıca "colab kullanılarak oluşturuldu" yazan dosyayı "open in colab" butonunu kullanarak doğrudan Google Colab ile açabilirsiniz. 
 
 ### 🎯 Amaç
 
@@ -52,6 +53,7 @@ Yeni örnekler, düzeltmeler veya önerilerle katkıda bulunmak isterseniz PR g�
 Topluluk katkılarına açık bir projedir.
 
 ---
+
 
 ### 🧾 Lisans
 
