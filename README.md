@@ -7,7 +7,7 @@ Amacımız, **temel matematik kavramlarını**, **sayısal yöntemleri** ve **he
 
 ---
 **NOT:** Kolay kullanım açısından derste google colab kullanılmaktadır. ``.ipynb`` uzantılı dosyayı indirerek yerel PC'de Jupyter Notebook, VS Code gibi uygulamalarla açabilir veye Google Drive'e ekleyebilir ve oradan çalıştırabilirsiniz. Ayrıca "colab kullanılarak oluşturuldu" yazan dosyayı "open in colab" butonunu kullanarak doğrudan Google Colab ile açabilirsiniz. Bu dosyaların başına "_(COLAB)_" açıklaması eklenmiştir. 
-
+---
 ### 🎯 Amaç
 
 * Bilimsel hesaplamanın temel prensiplerini Python üzerinden öğretmek
@@ -44,6 +44,8 @@ Amacımız, **temel matematik kavramlarını**, **sayısal yöntemleri** ve **he
 Bu depo **sürekli güncellenecektir.**
 Zaman içinde yeni konular, örnekler ve açıklamalar eklenecek; mevcut içerikler geliştirilecektir.
 Katkıda bulunmak isteyenler için “pull request” ve “issue” bölümleri açıktır.
+
+Daha fazlası için inanunal@gmail.com adresine mail atabilirsiniz. 
 
 ---
 
